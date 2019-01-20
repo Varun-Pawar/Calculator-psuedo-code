@@ -1,0 +1,8 @@
+While there is more input 
+take and record first number
+move to first operator, if it is multiplication or division, pop it and push the answer
+else if the operator is + or - move on, if there is any other input. If there is no other input pop the equation and push out the answer.  
+For any stars or slashes (multiplication/division) pop that part of the equation and push out the answer to reduce the equation
+Once all stars/slashes are popped out, evaluate for addition and subtraction
+pop out all plus and minus signs, and push out the answer till you get one final number
+The final number is your answer
